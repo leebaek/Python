@@ -8,7 +8,7 @@
 # 예) 생성된 비밀번호 : nav51!
 
 # 나의 답
-site = "http://youtube.com"
+site = "http://naver.com"
 pw = site[7:]
 pw1 = pw[:-4]
 pw_final = pw1[:3]+str(len(pw1))+str(pw1.count("e"))+"!"
